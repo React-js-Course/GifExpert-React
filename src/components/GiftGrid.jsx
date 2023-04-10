@@ -7,7 +7,6 @@ import { getGift } from "../helpers/GetGifs"
     getGift(category)
   },[])
   
-
    return (
     <>
      <h3>{ category }</h3>
