@@ -22,8 +22,8 @@ export const GifExpertApp = () => {
           // currentCategory={ categories }
         />
           {
-            categories.map(category => (
-                <GiftGrid key={ category } category={ category }/>    
+            categories.map(categorySerch => (
+                <GiftGrid key={ categorySerch } category={ categorySerch }/>    
               )
             )
           }
