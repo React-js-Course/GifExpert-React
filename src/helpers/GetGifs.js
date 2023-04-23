@@ -9,6 +9,8 @@ export const getGift = async(categoria) => {
       id: img.id,
       title: img.title,
       url: img.images.downsized_medium.url
-    }));    
+    }));   
+
   return gift;
+  
   }
